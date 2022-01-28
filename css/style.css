@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&display=swap");
+
+body {
+  background: rgba(47, 13, 183, 0.8);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(214, 248, 10, 0.75);
+}
+
+.secao-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.secao-principal-btn {
+  font-family: "Racing Sans One", cursive;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  background: rgba(214, 248, 10, 0.75);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: 125px;
+  height: 36px;
+}
+
+.secao-principal-btn:hover {
+  background: rgba(62, 70, 17, 0.75);
+}
+
+.secao-principal-img {
+  height: 202px;
+  width: 220px;
+}
+
+.secao-principal-titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  size: 30px;
+}
+
+.secao-secundaria {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao-secundaria-paragrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(214, 248, 10, 0.75);
+}
+
+.rodape-paragrafo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 10px;
+}
